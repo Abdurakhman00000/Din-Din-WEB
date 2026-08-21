@@ -1,27 +1,25 @@
-import { CorporateSection } from "@/components/sections/CorporateSection";
-import { DeliverySection } from "@/components/sections/DeliverySection";
-import { DownloadAppSection } from "@/components/sections/DownloadAppSection";
+import { Header } from "@/components/layout/Header";
+import { FeaturesSection } from "@/components/sections/FeaturesSection";
+import { FinalCtaSection } from "@/components/sections/FinalCtaSection";
 import { Footer } from "@/components/sections/Footer";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { HowItWorksSection } from "@/components/sections/HowItWorksSection";
 import { LiveKitchenSection } from "@/components/sections/LiveKitchenSection";
-import { MenuSection } from "@/components/sections/MenuSection";
-import { PreOrderSection } from "@/components/sections/PreOrderSection";
 import { WhyDinDinSection } from "@/components/sections/WhyDinDinSection";
 
 export default function HomePage() {
   return (
-    <main>
-      <HeroSection />
-      <HowItWorksSection />
-      <WhyDinDinSection />
-      <LiveKitchenSection />
-      <MenuSection />
-      <PreOrderSection />
-      <DeliverySection />
-      <CorporateSection />
-      <DownloadAppSection />
+    <>
+      <Header />
+      <main>
+        <HeroSection />
+        <WhyDinDinSection />
+        <LiveKitchenSection />
+        <HowItWorksSection />
+        <FeaturesSection />
+        <FinalCtaSection />
+      </main>
       <Footer />
-    </main>
+    </>
   );
 }

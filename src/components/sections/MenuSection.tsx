@@ -1,4 +1,4 @@
-/** Menu — обзор меню и категорий блюд. */
+/** Menu — зарезервировано под будущий блок меню. */
 export function MenuSection() {
-  return <section>{/* Menu */}</section>;
+  return null;
 }

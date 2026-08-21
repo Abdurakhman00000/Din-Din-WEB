@@ -1,4 +1,4 @@
-/** Delivery — информация о доставке. */
+/** Delivery — зарезервировано под будущий блок доставки. */
 export function DeliverySection() {
-  return <section>{/* Delivery */}</section>;
+  return null;
 }

@@ -1,4 +1,4 @@
-/** Corporate — корпоративные заказы и B2B-предложение. */
+/** Corporate — зарезервировано под будущий B2B-блок. */
 export function CorporateSection() {
-  return <section>{/* Corporate */}</section>;
+  return null;
 }

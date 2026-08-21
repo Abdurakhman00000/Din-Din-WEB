@@ -1,4 +1,4 @@
-/** Pre-Order — секция предзаказа. */
+/** Pre-Order — зарезервировано под будущий блок предзаказа. */
 export function PreOrderSection() {
-  return <section>{/* Pre-Order */}</section>;
+  return null;
 }

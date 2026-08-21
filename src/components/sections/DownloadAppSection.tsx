@@ -1,4 +1,4 @@
-/** Download App — призыв скачать мобильное приложение. */
+/** Download App — зарезервировано под будущие ссылки на магазины. */
 export function DownloadAppSection() {
-  return <section>{/* Download App */}</section>;
+  return null;
 }
