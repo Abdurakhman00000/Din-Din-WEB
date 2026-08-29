@@ -17,7 +17,7 @@ export function FinalCtaSection() {
             />
             <div className="relative mx-auto max-w-2xl">
               <h2 className="font-display text-3xl font-semibold tracking-[-0.03em] sm:text-4xl md:text-[2.6rem]">
-                Din Din — еда, которой можно доверять
+                Teyva — еда, которой можно доверять
               </h2>
               <p className="mx-auto mt-5 max-w-xl text-base leading-relaxed text-white/85 sm:text-lg">
                 Собственная кухня, прозрачный процесс приготовления и доставка

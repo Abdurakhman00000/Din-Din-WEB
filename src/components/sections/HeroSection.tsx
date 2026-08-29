@@ -1,7 +1,7 @@
 import { Reveal } from "@/components/ui/Reveal";
 import Image from "next/image";
 
-/** Hero — главный экран с мокапом приложения Din Din. */
+/** Hero — главный экран с мокапом приложения Teyva. */
 export function HeroSection() {
   return (
     <section id="hero" className="hero-glow relative overflow-hidden pt-24 md:pt-28">
@@ -9,7 +9,7 @@ export function HeroSection() {
         <div className="md:col-span-6 lg:col-span-5">
           <Reveal>
             <p className="mb-4 text-sm font-semibold tracking-[0.18em] text-brand uppercase">
-              Din Din
+              Teyva
             </p>
             <h1 className="font-display text-[2.35rem] leading-[1.08] font-semibold tracking-[-0.03em] text-foreground sm:text-5xl lg:text-[3.5rem]">
               Вкусно. Чисто. Вовремя.
@@ -38,16 +38,16 @@ export function HeroSection() {
               aria-hidden
               className="pointer-events-none absolute top-1/2 left-1/2 h-[78%] w-[78%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(30,122,74,0.18)_0%,rgba(30,122,74,0)_70%)] blur-2xl"
             />
-            <div className="phone-shadow animate-float relative mx-auto w-[min(100%,260px)] sm:w-[min(100%,290px)] md:ml-auto md:w-[min(100%,320px)] lg:w-[360px]">
+            <div className="phone-shadow animate-float relative mx-auto w-[min(100%,180px)] sm:w-[min(100%,200px)] md:ml-auto md:w-[min(100%,220px)] lg:w-[250px]">
               <Image
-                src="/images/din-din-phone.png"
-                alt="Мокап мобильного приложения Din Din"
-                width={425}
-                height={879}
+                src="/images/teyva-screen-hero.png"
+                alt="Мокап мобильного приложения Teyva"
+                width={386}
+                height={945}
                 priority
                 unoptimized
                 className="h-auto w-full bg-transparent select-none"
-                sizes="(max-width: 768px) 260px, (max-width: 1024px) 320px, 360px"
+                sizes="(max-width: 640px) 180px, (max-width: 1024px) 220px, 250px"
               />
             </div>
           </Reveal>

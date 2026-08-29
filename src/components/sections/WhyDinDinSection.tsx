@@ -62,7 +62,7 @@ const ADVANTAGES = [
   },
   {
     title: "Собственная доставка",
-    text: "Курьеры Din Din — предсказуемые сроки и аккуратная подача.",
+    text: "Курьеры Teyva — предсказуемые сроки и аккуратная подача.",
     icon: (
       <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" aria-hidden>
         <path
@@ -78,7 +78,7 @@ const ADVANTAGES = [
   },
 ] as const;
 
-/** Why Din Din — ключевые преимущества бренда. */
+/** Why Teyva — ключевые преимущества бренда. */
 export function WhyDinDinSection() {
   return (
     <section id="why" className="py-20 md:py-28">
@@ -86,7 +86,7 @@ export function WhyDinDinSection() {
         <Reveal>
           <div className="mx-auto max-w-2xl text-center">
             <p className="mb-3 text-sm font-semibold tracking-[0.16em] text-brand uppercase">
-              Почему Din Din
+              Почему Teyva
             </p>
             <h2 className="font-display text-3xl font-semibold tracking-[-0.03em] text-foreground sm:text-4xl md:text-[2.75rem]">
               Больше, чем доставка еды

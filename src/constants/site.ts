@@ -6,6 +6,6 @@ export const NAV_LINKS = [
 ] as const;
 
 export const SITE = {
-  name: "Din Din",
+  name: "Teyva",
   tagline: "Вкусно. Чисто. Вовремя.",
 } as const;

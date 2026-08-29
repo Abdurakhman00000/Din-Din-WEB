@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Политика конфиденциальности | Din Din",
-  description: "Политика конфиденциальности Din Din",
+  title: "Политика конфиденциальности | Teyva",
+  description: "Политика конфиденциальности Teyva",
 };
 
 /** Страница политики конфиденциальности (контент будет добавлен позже). */

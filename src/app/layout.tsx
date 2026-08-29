@@ -15,9 +15,9 @@ const unbounded = Unbounded({
 });
 
 export const metadata: Metadata = {
-  title: "Din Din — вкусно, чисто, вовремя",
+  title: "Teyva — вкусно, чисто, вовремя",
   description:
-    "Din Din — сервис доставки еды из собственной кухни. Следите за приготовлением в прямом эфире.",
+    "Teyva — сервис доставки еды из собственной кухни. Следите за приготовлением в прямом эфире.",
 };
 
 export default function RootLayout({

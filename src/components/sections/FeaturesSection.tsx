@@ -111,7 +111,7 @@ export function FeaturesSection() {
               Приложение, в котором всё под контролем
             </h2>
             <p className="mt-4 text-base text-muted sm:text-lg">
-              От меню до доставки — всё в одном приложении Din Din.
+              От меню до доставки — всё в одном приложении Teyva.
             </p>
           </div>
         </Reveal>
