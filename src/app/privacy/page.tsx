@@ -1,11 +1,16 @@
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/sections/Footer";
+import { SITE } from "@/constants/site";
 import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Политика конфиденциальности | Teyva",
-  description: "Политика конфиденциальности Teyva",
+  title: "Политика конфиденциальности",
+  description: `Политика конфиденциальности ${SITE.name}`,
+  openGraph: {
+    title: `Политика конфиденциальности | ${SITE.name}`,
+    description: `Политика конфиденциальности ${SITE.name}`,
+  },
 };
 
 /** Страница политики конфиденциальности (контент будет добавлен позже). */

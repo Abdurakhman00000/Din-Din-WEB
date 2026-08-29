@@ -79,7 +79,7 @@ const ADVANTAGES = [
 ] as const;
 
 /** Why Teyva — ключевые преимущества бренда. */
-export function WhyDinDinSection() {
+export function WhyTeyvaSection() {
   return (
     <section id="why" className="py-20 md:py-28">
       <div className="container-page">

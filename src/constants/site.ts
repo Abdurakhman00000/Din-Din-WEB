@@ -7,5 +7,9 @@ export const NAV_LINKS = [
 
 export const SITE = {
   name: "Teyva",
+  url: "https://teyva.us",
   tagline: "Вкусно. Чисто. Вовремя.",
+  title: "Teyva — вкусно, чисто, вовремя",
+  description:
+    "Teyva — сервис доставки еды из собственной кухни. Следите за приготовлением в прямом эфире.",
 } as const;

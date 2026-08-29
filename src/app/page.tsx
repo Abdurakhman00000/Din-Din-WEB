@@ -5,7 +5,7 @@ import { Footer } from "@/components/sections/Footer";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { HowItWorksSection } from "@/components/sections/HowItWorksSection";
 import { LiveKitchenSection } from "@/components/sections/LiveKitchenSection";
-import { WhyDinDinSection } from "@/components/sections/WhyDinDinSection";
+import { WhyTeyvaSection } from "@/components/sections/WhyTeyvaSection";
 
 export default function HomePage() {
   return (
@@ -13,7 +13,7 @@ export default function HomePage() {
       <Header />
       <main>
         <HeroSection />
-        <WhyDinDinSection />
+        <WhyTeyvaSection />
         <LiveKitchenSection />
         <HowItWorksSection />
         <FeaturesSection />
