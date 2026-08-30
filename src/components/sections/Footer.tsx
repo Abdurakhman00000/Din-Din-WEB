@@ -30,10 +30,10 @@ export function Footer() {
             </li>
             <li>
               <a
-                href="tel:+996559708515"
+                href="tel:+996508181205"
                 className="transition-colors hover:text-brand"
               >
-                +996 559 70 85 15
+                +996 508 181 205
               </a>
             </li>
           </ul>
