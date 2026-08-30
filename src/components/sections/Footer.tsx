@@ -22,10 +22,10 @@ export function Footer() {
           <ul className="mt-4 space-y-2 text-sm text-muted">
             <li>
               <a
-                href="mailto:abdibaitovabdurahman@gmail.com"
+                href="mailto:help@teyva.us"
                 className="transition-colors hover:text-brand"
               >
-                abdibaitovabdurahman@gmail.com
+                help@teyva.us
               </a>
             </li>
             <li>
