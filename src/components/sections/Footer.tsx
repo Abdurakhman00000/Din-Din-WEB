@@ -4,26 +4,29 @@ import Link from "next/link";
 /** Footer — контакты, соцсети и юридические ссылки. */
 export function Footer() {
   return (
-    <footer id="contacts" className="border-t border-line bg-white py-12 md:py-16">
+    <footer
+      id="contacts"
+      className="border-line border-t bg-white py-12 md:py-16"
+    >
       <div className="container-page grid gap-10 md:grid-cols-[1.2fr_1fr_1fr]">
         <div>
-          <p className="font-display text-2xl font-semibold tracking-tight text-brand">
+          <p className="font-display text-brand text-2xl font-semibold tracking-tight">
             {SITE.name}
           </p>
-          <p className="mt-3 max-w-xs text-sm leading-relaxed text-muted">
+          <p className="text-muted mt-3 max-w-xs text-sm leading-relaxed">
             Собственная кухня и доставка еды, которой можно доверять.
           </p>
         </div>
 
         <div>
-          <h3 className="text-sm font-semibold tracking-wide text-foreground uppercase">
+          <h3 className="text-foreground text-sm font-semibold tracking-wide uppercase">
             Контакты
           </h3>
-          <ul className="mt-4 space-y-2 text-sm text-muted">
+          <ul className="text-muted mt-4 space-y-2 text-sm">
             <li>
               <a
                 href="mailto:help@teyva.us"
-                className="transition-colors hover:text-brand"
+                className="hover:text-brand transition-colors"
               >
                 help@teyva.us
               </a>
@@ -31,7 +34,7 @@ export function Footer() {
             <li>
               <a
                 href="tel:+996508181205"
-                className="transition-colors hover:text-brand"
+                className="hover:text-brand transition-colors"
               >
                 +996 508 181 205
               </a>
@@ -41,10 +44,10 @@ export function Footer() {
 
         <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2">
           <div>
-            <h3 className="text-sm font-semibold tracking-wide text-foreground uppercase">
+            <h3 className="text-foreground text-sm font-semibold tracking-wide uppercase">
               Социальные сети
             </h3>
-            <ul className="mt-4 space-y-2 text-sm text-muted">
+            <ul className="text-muted mt-4 space-y-2 text-sm">
               <li>
                 <span className="cursor-default">Instagram</span>
               </li>
@@ -55,16 +58,24 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold tracking-wide text-foreground uppercase">
+            <h3 className="text-foreground text-sm font-semibold tracking-wide uppercase">
               Документы
             </h3>
-            <ul className="mt-4 space-y-2 text-sm text-muted">
+            <ul className="text-muted mt-4 space-y-2 text-sm">
               <li>
                 <Link
                   href="/privacy"
-                  className="transition-colors hover:text-brand"
+                  className="hover:text-brand transition-colors"
                 >
                   Политика конфиденциальности
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/account-deletion"
+                  className="hover:text-brand transition-colors"
+                >
+                  Удаление аккаунта
                 </Link>
               </li>
               <li>
@@ -75,8 +86,8 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="container-page mt-10 border-t border-line pt-6">
-        <p className="text-xs text-muted">
+      <div className="container-page border-line mt-10 border-t pt-6">
+        <p className="text-muted text-xs">
           © {new Date().getFullYear()} {SITE.name}. Все права защищены.
         </p>
       </div>
